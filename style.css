@@ -1,0 +1,127 @@
+body {
+    background-color: #666666;
+}
+
+.container-ratio {
+    background: #ffffff;
+    width: 80%;
+    margin: 30px auto 0;
+    padding: 50px;
+}
+
+
+.container-ratio .btn {
+    width: 200px;
+    background-color:#4cbdaf;
+    color: black;
+    transition: all 0.3s;
+}
+
+.container-ratio .btn:hover {
+    transform: scale(1.05);
+}
+
+.container-ratio .btn:active {
+    background-color: aqua;
+    color: white;
+}
+
+
+
+.container-ratio .btn:focus {
+    box-shadow: none;
+}
+
+.container-ratio h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+
+}
+
+.container-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    position: relative;
+}
+
+.container-title .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eee; /* Set the background color for the close button (you can change it to your desired color) */
+    color: #fff; /* Set the color of the close button text (you can adjust it as needed) */
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; /* Remove the default button border */
+    padding: 4px; 
+}
+
+.container-title .btn-close:focus {
+    box-shadow: none;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container-card .card {
+    width: 280px;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin: 10px 10px;
+}
+
+.container-card .card-img-top {
+    height: 12rem;
+}
+
+.container-card .card-body {
+    padding: 1rem;
+}
+
+.container-card.card-title {
+    font-size: 1.5rem;
+}
+
+
+.container-method h3{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.container-method .card {
+    width: 420px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.container-method .text {
+    margin-left: 20px;
+}
+
+.container-method .card-text {
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5); 
+    color: green;
+  }
+  input[type="radio"]:checked {
+    /* Change the background color of the radio button's outer circle when selected */
+    background-color: green;
+  }
